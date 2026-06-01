@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxanbnsnfns00000000101" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00000000101" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
   <layouts>
-    <layout name="npnxnanbsnfns00000000101" font="Open Sans" controllayout="npnxnanbsnfns00000000101" colorscheme="npnxanbnsnfns00000000101" string_table="npnxanbnsnfns00000000101" />
-    <layout name="pxabnsnfns00000000101" font="Open Sans" controllayout="pxabnsnfns00000000101" colorscheme="npnxanbnsnfns00000000101" string_table="npnxanbnsnfns00000000101" />
-    <layout name="npxnabnsnfns00000000101" font="Open Sans" controllayout="npxnabnsnfns00000000101" colorscheme="npnxanbnsnfns00000000101" string_table="npnxanbnsnfns00000000101" />
-    <layout name="npnxnanbnsnfns00000000101" font="Open Sans" controllayout="npnxnanbnsnfns00000000101" colorscheme="npnxanbnsnfns00000000101" string_table="npnxanbnsnfns00000000101" />
-    <layout name="pxabnsnfns00000000100" font="Open Sans" controllayout="pxabnsnfns00000000100" colorscheme="npnxanbnsnfns00000000101" string_table="npnxanbnsnfns00000000101" />
-    <layout name="npnxanbnsnfns00000000101" font="Open Sans" controllayout="npnxanbnsnfns00000000101" colorscheme="npnxanbnsnfns00000000101" string_table="npnxanbnsnfns00000000101" />
-    <layout name="pnxabnsnfns00000000101" font="Open Sans" controllayout="pnxabnsnfns00000000101" colorscheme="npnxanbnsnfns00000000101" string_table="npnxanbnsnfns00000000101" />
-    <layout name="npnxabsnfns00000000101" font="Open Sans" controllayout="npnxabsnfns00000000101" colorscheme="npnxanbnsnfns00000000101" string_table="npnxanbnsnfns00000000101" />
+    <layout name="npnxnanbsnfns00000000101" font="Open Sans" controllayout="npnxnanbsnfns00000000101" colorscheme="npnxnanbnsnfns00000000101" string_table="npnxnanbnsnfns00000000101" />
+    <layout name="pxabnsnfns00000000101" font="Open Sans" controllayout="pxabnsnfns00000000101" colorscheme="npnxnanbnsnfns00000000101" string_table="npnxnanbnsnfns00000000101" />
+    <layout name="npxnabnsnfns00000000101" font="Open Sans" controllayout="npxnabnsnfns00000000101" colorscheme="npnxnanbnsnfns00000000101" string_table="npnxnanbnsnfns00000000101" />
+    <layout name="npnxnanbnsnfns00000000101" font="Open Sans" controllayout="npnxnanbnsnfns00000000101" colorscheme="npnxnanbnsnfns00000000101" string_table="npnxnanbnsnfns00000000101" />
+    <layout name="pxabnsnfns00000000100" font="Open Sans" controllayout="pxabnsnfns00000000100" colorscheme="npnxnanbnsnfns00000000101" string_table="npnxnanbnsnfns00000000101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -200,78 +197,9 @@
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
-    <control_layout name="npnxanbnsnfns00000000101">
-      <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="false" />
-      <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
-      <control name="previous" enabled="false" />
-      <control name="next" enabled="false" />
-      <control name="swipeleft" enabled="true" />
-      <control name="swiperight" enabled="false" />
-      <control name="submit" enabled="false" />
-      <control name="finish" enabled="false" />
-      <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
-      <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="false" />
-      <control name="outline" enabled="false">
-        <controls>
-          <control name="search" enabled="false" />
-        </controls>
-      </control>
-      <control name="close_btn" enabled="true" />
-    </control_layout>
-    <control_layout name="pnxabnsnfns00000000101">
-      <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="false" />
-      <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
-      <control name="previous" enabled="true" />
-      <control name="next" enabled="false" />
-      <control name="swipeleft" enabled="true" />
-      <control name="swiperight" enabled="true" />
-      <control name="submit" enabled="false" />
-      <control name="finish" enabled="false" />
-      <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
-      <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="false" />
-      <control name="outline" enabled="false">
-        <controls>
-          <control name="search" enabled="false" />
-        </controls>
-      </control>
-      <control name="close_btn" enabled="true" />
-    </control_layout>
-    <control_layout name="npnxabsnfns00000000101">
-      <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="false" />
-      <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
-      <control name="previous" enabled="false" />
-      <control name="next" enabled="false" />
-      <control name="swipeleft" enabled="true" />
-      <control name="swiperight" enabled="true" />
-      <control name="submit" enabled="true" />
-      <control name="finish" enabled="false" />
-      <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
-      <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="false" />
-      <control name="outline" enabled="false">
-        <controls>
-          <control name="search" enabled="false" />
-        </controls>
-      </control>
-      <control name="close_btn" enabled="true" />
-    </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="npnxanbnsnfns00000000101">
+    <colorscheme name="npnxnanbnsnfns00000000101">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1188,7 +1116,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="npnxanbnsnfns00000000101">
+    <string_table name="npnxnanbnsnfns00000000101">
       <string id="acc_active">active</string>
       <string id="check_include">Check to include</string>
       <string id="clear">Clear and return to menu</string>
@@ -1260,7 +1188,6 @@
       <links>
         <slidelink slideid="_player.6MIN9n1eBc1" displaytext="INTRO" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.6MIN9n1eBc1.5Z88QX82ghr" displaytext="Intro" expand="false" type="slide" />
             <slidelink slideid="_player.6MIN9n1eBc1.6rarYaphBmw" displaytext="Mulai" expand="false" type="slide" />
             <slidelink slideid="_player.6MIN9n1eBc1.5cCLrSH0M0p" displaytext="Log In" expand="false" type="slide" />
           </links>
@@ -1279,27 +1206,6 @@
         <slidelink slideid="_player.5w3LE17p2So" displaytext="MATERI" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.5w3LE17p2So.5efjLIUop9o" displaytext="Topik Pembelajaran" expand="false" type="slide" />
-          </links>
-        </slidelink>
-        <slidelink slideid="_player.6n2XaylGQqZ" displaytext="EVALUASI TEMA 1" expand="true" type="slide">
-          <links>
-            <slidelink slideid="_player.6n2XaylGQqZ.5rYxDLJ9rHH" displaytext="Evaluasi Tema 1" expand="false" type="slide" />
-            <slidelink slideid="_player.6n2XaylGQqZ.5qRcsEYppVn" displaytext="Instruksi Petunjuk Eval.Mufrodat" expand="false" type="slide" />
-            <slidelink slideid="_player.6n2XaylGQqZ.5u2xFXm9zWr" displaytext="Eval.Qiroah 4 Tarjim  " expand="false" type="slide" />
-            <slidelink slideid="_player.6n2XaylGQqZ.62pKYYc7IY8" displaytext="Eval.Mufrodat 5 Tema 1" expand="false" type="slide" />
-            <slidelink slideid="_player.6n2XaylGQqZ.6TduuW4heRo" displaytext="Eval.Mufrodat 4 Tema 1" expand="false" type="slide" />
-            <slidelink slideid="_player.6n2XaylGQqZ.6GvdGuavUTD" displaytext="Eval.Mufrodat 2 Tema 1" expand="false" type="slide" />
-            <slidelink slideid="_player.6n2XaylGQqZ.5bRZi422Jx0" displaytext="Eval.Mufrodat 3 Tema 1" expand="false" type="slide" />
-            <slidelink slideid="_player.6n2XaylGQqZ.68ATE9UV6AT" displaytext="Eval.Mufrodat 1 Tema 1" expand="false" type="slide" />
-            <slidelink slideid="_player.6n2XaylGQqZ.67uABt7PDrs" displaytext="Instruksi Petunjuk Eval.Qiroah" expand="false" type="slide" />
-            <slidelink slideid="_player.6n2XaylGQqZ.6XMX01O1l41" displaytext="Eval.Qiroah 1 Tarjim T1" expand="false" type="slide" />
-            <slidelink slideid="_player.6n2XaylGQqZ.643mW7eWP3N" displaytext="Eval.Qiroah 2 Tarjim " expand="false" type="slide" />
-            <slidelink slideid="_player.6n2XaylGQqZ.6QAoGKVvjak" displaytext="Eval.Qiroah 3 Tarjim  " expand="false" type="slide" />
-            <slidelink slideid="_player.6n2XaylGQqZ.6WDWFOAvkto" displaytext="Instruksi Petunjuk Eval.Kaidah" expand="false" type="slide" />
-            <slidelink slideid="_player.6n2XaylGQqZ.5zPQ6DHVz0H" displaytext="Eval.Kaidah 2 Tema 1" expand="false" type="slide" />
-            <slidelink slideid="_player.6n2XaylGQqZ.5o4slF0pFSx" displaytext="Eval.Kaidah 3 Tema 1" expand="false" type="slide" />
-            <slidelink slideid="_player.6n2XaylGQqZ.5sxAkYrFQ5S" displaytext="Eval.Kaidah 4 Tema 1" expand="false" type="slide" />
-            <slidelink slideid="_player.6n2XaylGQqZ.6AGu54nTUT2" displaytext="Eval.Kaidah 1 Tema 1" expand="false" type="slide" />
           </links>
         </slidelink>
         <slidelink slideid="_player.6N2nwTXC4yJ" displaytext="INFORMASI" expand="true" type="slide">
@@ -1348,29 +1254,49 @@
             <slidelink slideid="_player.6cAWag7hGaF.5vVkOR0Pf3i" displaytext="Kaidah Tema 2" expand="false" type="slide" />
           </links>
         </slidelink>
-        <slidelink slideid="_player.65EAcxRIPVv" displaytext="EVALUASI TEMA 2" expand="true" type="slide">
-          <links>
-            <slidelink slideid="_player.65EAcxRIPVv.5jLaLB0lEZE" displaytext="Evaluasi Pembelajaran Tema 2" expand="false" type="slide" />
-            <slidelink slideid="_player.65EAcxRIPVv.6l904cPZ52r" displaytext="Instruksi Petunjul Eval.Mufrodat" expand="false" type="slide" />
-            <slidelink slideid="_player.65EAcxRIPVv.62P3UwRZc1N" displaytext="Eval.Mufrodat 3 Tema 2" expand="false" type="slide" />
-            <slidelink slideid="_player.65EAcxRIPVv.61hfej2k4z3" displaytext="Eval.Mufrodat 4 Tema 2" expand="false" type="slide" />
-            <slidelink slideid="_player.65EAcxRIPVv.6SUvmwQkZBc" displaytext="Eval.Mufrodat 5 Tema 2" expand="false" type="slide" />
-            <slidelink slideid="_player.65EAcxRIPVv.6J37Piwakxx" displaytext="Instruksi Petunjuk Eval.Qiroah" expand="false" type="slide" />
-            <slidelink slideid="_player.65EAcxRIPVv.6oSjvMja42C" displaytext="Eval.Qiroah 1 Tarjim T2" expand="false" type="slide" />
-            <slidelink slideid="_player.65EAcxRIPVv.5ZAH57RTRvC" displaytext="Eval.Qiroah 2 Tarjim T2" expand="false" type="slide" />
-            <slidelink slideid="_player.65EAcxRIPVv.6m1co6DuTMo" displaytext="Eval.Qiroah 3 Tarjim T2" expand="false" type="slide" />
-            <slidelink slideid="_player.65EAcxRIPVv.6c9kdNgvZEA" displaytext="Eval.Qiroah 4 Tarjim T2" expand="false" type="slide" />
-            <slidelink slideid="_player.65EAcxRIPVv.61VuY6BxkaO" displaytext="Instruksi Petunjuk Eval.Kaidah" expand="false" type="slide" />
-            <slidelink slideid="_player.65EAcxRIPVv.69dOPJSx5JE" displaytext="Eval.Kaidah 1-2 Tema 2" expand="false" type="slide" />
-            <slidelink slideid="_player.65EAcxRIPVv.606WVDo2xM9" displaytext="Eval.Kaidah 3 Tema 2" expand="false" type="slide" />
-            <slidelink slideid="_player.65EAcxRIPVv.6pE9u40Ui2F" displaytext="Eval.Kaidah 4 Tema 2" expand="false" type="slide" />
-            <slidelink slideid="_player.65EAcxRIPVv.6dCF0h6t0bn" displaytext="Eval.Mufrodat 2 Tema 2" expand="false" type="slide" />
-            <slidelink slideid="_player.65EAcxRIPVv.5yZTqIR9O8R" displaytext="Eval.Mufrodat 1 Tema 2" expand="false" type="slide" />
-          </links>
-        </slidelink>
         <slidelink slideid="_player.5zpAxWFAe6S" displaytext="EVALUASI BELAJAR" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.5zpAxWFAe6S.6rbpK3VB5Sb" displaytext="menu Opsi Evaluasi" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6aBh0RInl0A" displaytext="EVALUASI TEMA 1" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6aBh0RInl0A.6OASSljJh1b" displaytext="Menu Evaluasi Pembelajaran Tema 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6aBh0RInl0A.5ecuavTzBHR" displaytext="Instruksi Petunjuk Eval.Mufrodat T1" expand="false" type="slide" />
+            <slidelink slideid="_player.6aBh0RInl0A.6iN4vrdWOzz" displaytext="Eval.Mufrodat 1 Tema 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6aBh0RInl0A.6CZcdorNMRD" displaytext="Eval.Mufrodat 2 Tema 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6aBh0RInl0A.6EvyfhaaYFD" displaytext="Eval.Mufrodat 3 Tema 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6aBh0RInl0A.6kECV0bCRlO" displaytext="Eval.Mufrodat 4 Tema 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6aBh0RInl0A.6ePclSSHtUL" displaytext="Instruksi Petunjuk Eval.Qiroah T1" expand="false" type="slide" />
+            <slidelink slideid="_player.6aBh0RInl0A.5cFiBNW00uD" displaytext="Eval.Qiroah 1 Tema 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6aBh0RInl0A.5sySMT73Ugm" displaytext="Eval.Qiroah 2 Tema 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6aBh0RInl0A.5qTl5oLkh8s" displaytext="Eval.Qiroah 3 Tema 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6aBh0RInl0A.60HCl4mWbd2" displaytext="Eval.Qiroah 4 Tema 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6aBh0RInl0A.63KkacIbrug" displaytext="Instruksi Petunjuk Eval.Kaidah T1" expand="false" type="slide" />
+            <slidelink slideid="_player.6aBh0RInl0A.683aEMWFASy" displaytext="Eval.Kaidah 1 Tema 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6aBh0RInl0A.6drvAiDwovI" displaytext="Eval.Kaidah 2 Tema 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6aBh0RInl0A.6FqOmXKeDWD" displaytext="Eval.Kaidah 3 Tema 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6aBh0RInl0A.5qkBfrSC6gP" displaytext="Eval.Kaidah 4 Tema 1" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5roQRfNUE1k" displaytext="EVALUASI TEMA 2" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5roQRfNUE1k.5brpszQWcyQ" displaytext="Menu Evaluasi Pembelajaran Tema 2" expand="false" type="slide" />
+            <slidelink slideid="_player.5roQRfNUE1k.65DCCbOAXyN" displaytext="Instruksi Petunjuk Eval.Mufrodat T2" expand="false" type="slide" />
+            <slidelink slideid="_player.5roQRfNUE1k.637heAKSMAv" displaytext="Eval.Mufrodat 1 Tema 2" expand="false" type="slide" />
+            <slidelink slideid="_player.5roQRfNUE1k.6kIwofD3RCB" displaytext="Eval.Mufrodat 2 Tema 2" expand="false" type="slide" />
+            <slidelink slideid="_player.5roQRfNUE1k.5a8ePPmWzbi" displaytext="Eval.Mufrodat 3 Tema 2" expand="false" type="slide" />
+            <slidelink slideid="_player.5roQRfNUE1k.6STEjecUwX4" displaytext="Eval.Mufrodat 4 Tema 2" expand="false" type="slide" />
+            <slidelink slideid="_player.5roQRfNUE1k.5yFYR7MoaZR" displaytext="Instruksi Petunjuk Eval.Qiroah T2" expand="false" type="slide" />
+            <slidelink slideid="_player.5roQRfNUE1k.5ksWtpsDPvQ" displaytext="Eval.Qiroah 1 Tema 2" expand="false" type="slide" />
+            <slidelink slideid="_player.5roQRfNUE1k.5XTjQbZQY3Z" displaytext="Eval.Qiroah 2 Tema 2" expand="false" type="slide" />
+            <slidelink slideid="_player.5roQRfNUE1k.6Z6hI3R7Afw" displaytext="Eval.Qiroah 3 Tema 2" expand="false" type="slide" />
+            <slidelink slideid="_player.5roQRfNUE1k.6PYePd7HpqD" displaytext="Eval.Qiroah 4 Tema 2" expand="false" type="slide" />
+            <slidelink slideid="_player.5roQRfNUE1k.6ce38nxlJ8E" displaytext="Instruksi Petunjuk Eval.Kaidah T2" expand="false" type="slide" />
+            <slidelink slideid="_player.5roQRfNUE1k.6MpkTPHHllT" displaytext="Eval.Kaidah 1 Tema 2" expand="false" type="slide" />
+            <slidelink slideid="_player.5roQRfNUE1k.6VAYUk1Al4s" displaytext="Eval.Kaidah 2 Tema 2" expand="false" type="slide" />
+            <slidelink slideid="_player.5roQRfNUE1k.6cTM6hCdAXV" displaytext="Eval.Kaidah 3 Tema 2" expand="false" type="slide" />
+            <slidelink slideid="_player.5roQRfNUE1k.6oWIfXnF3n9" displaytext="Eval.Kaidah 4 Tema 2" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
